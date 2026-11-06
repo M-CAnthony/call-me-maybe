@@ -1,0 +1,39 @@
+call-me-maybe/
+│
+├── src/
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── main.py
+│   │
+│   ├── llm/
+│   │   ├── __init__.py
+│   │   └── model.py
+│   │
+│   ├── decoder/
+│   │   ├── __init__.py
+│   │   ├── constrained_decoder.py
+│   │   └── json_schema.py
+│   │
+│   ├── parser/
+│   │   ├── __init__.py
+│   │   └── function_parser.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       └── file_handler.py
+│
+├── llm_sdk/
+│   └── [provided SDK files]
+│
+├── data/
+│   ├── input/
+│   │   ├── functions_definition.json
+│   │   └── function_calling_tests.json
+│   │
+│   └── output/
+│
+├── pyproject.toml
+├── uv.lock
+├── Makefile
+├── .gitignore
+└── README.md
